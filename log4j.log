@@ -1,0 +1,526 @@
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+1 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+1 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObject.<init>(IDfTypedObject.java:46)
+	at mock.com.documentum.fc.client.IDfCollection.<init>(IDfCollection.java:27)
+	at mock.com.documentum.fc.client.IDfCollection.<init>(IDfCollection.java:23)
+	at mock.com.documentum.fc.client.IDfCollection.main(IDfCollection.java:53)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+3 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+4 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObject.<init>(IDfTypedObject.java:46)
+	at mock.com.documentum.fc.client.IDfCollection.<init>(IDfCollection.java:27)
+	at mock.com.documentum.fc.client.IDfCollection.<init>(IDfCollection.java:23)
+	at mock.com.documentum.fc.client.IDfCollection.main(IDfCollection.java:53)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+1 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+2 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObject.<init>(IDfTypedObject.java:46)
+	at mock.com.documentum.fc.client.IDfCollection.<init>(IDfCollection.java:27)
+	at mock.com.documentum.fc.client.IDfCollection.<init>(IDfCollection.java:23)
+	at mock.com.documentum.fc.client.IDfCollection.main(IDfCollection.java:52)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+1 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+1 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObject.<init>(IDfTypedObject.java:46)
+	at mock.com.documentum.fc.client.IDfCollection.<init>(IDfCollection.java:27)
+	at mock.com.documentum.fc.client.IDfCollection.<init>(IDfCollection.java:23)
+	at mock.com.documentum.fc.client.IDfCollection.main(IDfCollection.java:53)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+8 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+10 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObject.<init>(IDfTypedObject.java:46)
+	at mock.com.documentum.fc.client.IDfCollection.<init>(IDfCollection.java:27)
+	at mock.com.documentum.fc.client.IDfCollection.<init>(IDfCollection.java:23)
+	at mock.com.documentum.fc.client.IDfQuery.<init>(IDfQuery.java:27)
+	at mock.com.documentum.fc.client.IDfQuery.main(IDfQuery.java:40)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+2 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+4 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObject.<init>(IDfTypedObject.java:46)
+	at mock.com.documentum.fc.client.IDfCollection.<init>(IDfCollection.java:27)
+	at mock.com.documentum.fc.client.IDfCollection.<init>(IDfCollection.java:23)
+	at mock.com.documentum.fc.client.IDfQuery.<init>(IDfQuery.java:27)
+	at mock.com.documentum.fc.client.IDfQuery.main(IDfQuery.java:40)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+2 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+4 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObject.<init>(IDfTypedObject.java:46)
+	at mock.com.documentum.fc.client.IDfCollection.<init>(IDfCollection.java:27)
+	at mock.com.documentum.fc.client.IDfCollection.<init>(IDfCollection.java:23)
+	at mock.com.documentum.fc.client.IDfQuery.main(IDfQuery.java:40)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+6 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+8 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObject.<init>(IDfTypedObject.java:46)
+	at mock.com.documentum.fc.client.IDfCollection.<init>(IDfCollection.java:27)
+	at mock.com.documentum.fc.client.IDfCollection.<init>(IDfCollection.java:23)
+	at mock.com.documentum.fc.client.IDfQuery.main(IDfQuery.java:40)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+7 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+8 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.main(IDfTypedObjectMock.java:61)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+10 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+12 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.getDefaultValueProvider(IDfTypedObjectMock.java:86)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:56)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.main(IDfTypedObjectMock.java:100)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+7 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+10 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.getDefaultValueProvider(IDfTypedObjectMock.java:84)
+	at mock.com.documentum.fc.client.IDfCollectionMock.getDefaultValueProvider(IDfCollectionMock.java:59)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:57)
+	at mock.com.documentum.fc.client.IDfCollectionMock.<init>(IDfCollectionMock.java:38)
+	at mock.com.documentum.fc.client.IDfCollectionMock.main(IDfCollectionMock.java:65)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+3 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+4 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.getDefaultValueProvider(IDfTypedObjectMock.java:84)
+	at mock.com.documentum.fc.client.IDfCollectionMock.getDefaultValueProvider(IDfCollectionMock.java:59)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:57)
+	at mock.com.documentum.fc.client.IDfCollectionMock.<init>(IDfCollectionMock.java:38)
+	at mock.com.documentum.fc.client.IDfCollectionMock.main(IDfCollectionMock.java:65)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+7 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+8 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.getDefaultValueProvider(IDfTypedObjectMock.java:84)
+	at mock.com.documentum.fc.client.IDfCollectionMock.getDefaultValueProvider(IDfCollectionMock.java:56)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:57)
+	at mock.com.documentum.fc.client.IDfCollectionMock.<init>(IDfCollectionMock.java:35)
+	at mock.com.documentum.fc.client.IDfCollectionMock.main(IDfCollectionMock.java:62)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+2 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+3 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.getDefaultValueProvider(IDfTypedObjectMock.java:84)
+	at mock.com.documentum.fc.client.IDfCollectionMock.getDefaultValueProvider(IDfCollectionMock.java:59)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:57)
+	at mock.com.documentum.fc.client.IDfCollectionMock.<init>(IDfCollectionMock.java:38)
+	at mock.com.documentum.fc.client.IDfCollectionMock.main(IDfCollectionMock.java:68)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+6 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+7 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.initDefaultValueProvider(IDfTypedObjectMock.java:88)
+	at mock.com.documentum.fc.client.IDfCollectionMock.initDefaultValueProvider(IDfCollectionMock.java:58)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:58)
+	at mock.com.documentum.fc.client.IDfCollectionMock.<init>(IDfCollectionMock.java:37)
+	at mock.com.documentum.fc.client.IDfCollectionMock.main(IDfCollectionMock.java:66)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+2 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+4 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.initDefaultValueProvider(IDfTypedObjectMock.java:88)
+	at mock.com.documentum.fc.client.IDfCollectionMock.initDefaultValueProvider(IDfCollectionMock.java:58)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:58)
+	at mock.com.documentum.fc.client.IDfCollectionMock.<init>(IDfCollectionMock.java:37)
+	at mock.com.documentum.fc.client.IDfCollectionMock.main(IDfCollectionMock.java:66)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+2 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+4 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.initDefaultValueProvider(IDfTypedObjectMock.java:88)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:58)
+	at mock.com.documentum.fc.client.IDfPersistentObjectMock.<init>(IDfPersistentObjectMock.java:22)
+	at mock.com.documentum.fc.client.IDfSysObjectMock.<init>(IDfSysObjectMock.java:25)
+	at mock.com.documentum.fc.client.IDfSysObjectMock.main(IDfSysObjectMock.java:46)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+2 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+3 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.initDefaultValueProvider(IDfTypedObjectMock.java:88)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:58)
+	at mock.com.documentum.fc.client.IDfPersistentObjectMock.<init>(IDfPersistentObjectMock.java:22)
+	at mock.com.documentum.fc.client.IDfSysObjectMock.<init>(IDfSysObjectMock.java:25)
+	at mock.com.documentum.fc.client.IDfFolderMock.<init>(IDfFolderMock.java:18)
+	at mock.com.documentum.fc.client.IDfFolderMock.main(IDfFolderMock.java:34)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+2 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+3 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.getDefaultValueProvider(IDfTypedObjectMock.java:84)
+	at mock.com.documentum.fc.client.IDfCollectionMock.getDefaultValueProvider(IDfCollectionMock.java:58)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:57)
+	at mock.com.documentum.fc.client.IDfCollectionMock.<init>(IDfCollectionMock.java:37)
+	at mock.com.documentum.fc.client.IDfCollectionMock.main(IDfCollectionMock.java:65)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+5 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+7 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.getDefaultValueProvider(IDfTypedObjectMock.java:86)
+	at mock.com.documentum.fc.client.IDfUserMock.getDefaultValueProvider(IDfUserMock.java:36)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:59)
+	at mock.com.documentum.fc.client.IDfPersistentObjectMock.<init>(IDfPersistentObjectMock.java:22)
+	at mock.com.documentum.fc.client.IDfPersistentObjectMock.<init>(IDfPersistentObjectMock.java:18)
+	at mock.com.documentum.fc.client.IDfUserMock.<init>(IDfUserMock.java:25)
+	at mock.com.documentum.fc.client.IDfSessionMock.getDefautValueProvider(IDfSessionMock.java:66)
+	at mock.com.documentum.fc.client.IDfSessionMock.<init>(IDfSessionMock.java:50)
+	at mock.com.documentum.fc.client.IDfSessionMock.<init>(IDfSessionMock.java:46)
+	at mock.com.documentum.fc.client.IDfSessionMock.main(IDfSessionMock.java:84)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+5 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+7 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.getDefaultValueProvider(IDfTypedObjectMock.java:86)
+	at mock.com.documentum.fc.client.IDfUserMock.getDefaultValueProvider(IDfUserMock.java:36)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:59)
+	at mock.com.documentum.fc.client.IDfPersistentObjectMock.<init>(IDfPersistentObjectMock.java:22)
+	at mock.com.documentum.fc.client.IDfPersistentObjectMock.<init>(IDfPersistentObjectMock.java:18)
+	at mock.com.documentum.fc.client.IDfUserMock.<init>(IDfUserMock.java:25)
+	at mock.com.documentum.fc.client.IDfSessionMock.getDefautValueProvider(IDfSessionMock.java:66)
+	at mock.com.documentum.fc.client.IDfSessionMock.<init>(IDfSessionMock.java:50)
+	at mock.com.documentum.fc.client.IDfSessionMock.<init>(IDfSessionMock.java:46)
+	at mock.com.documentum.fc.client.IDfSessionMock.main(IDfSessionMock.java:86)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+7 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+8 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.getDefaultValueProvider(IDfTypedObjectMock.java:86)
+	at mock.com.documentum.fc.client.IDfUserMock.getDefaultValueProvider(IDfUserMock.java:36)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:59)
+	at mock.com.documentum.fc.client.IDfPersistentObjectMock.<init>(IDfPersistentObjectMock.java:22)
+	at mock.com.documentum.fc.client.IDfPersistentObjectMock.<init>(IDfPersistentObjectMock.java:18)
+	at mock.com.documentum.fc.client.IDfUserMock.<init>(IDfUserMock.java:25)
+	at mock.com.documentum.fc.client.IDfSessionMock.getDefautValueProvider(IDfSessionMock.java:66)
+	at mock.com.documentum.fc.client.IDfSessionMock.<init>(IDfSessionMock.java:50)
+	at mock.com.documentum.fc.client.IDfSessionMock.<init>(IDfSessionMock.java:46)
+	at mock.com.documentum.fc.client.IDfSessionMock.main(IDfSessionMock.java:86)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+2 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+3 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.getDefaultValueProvider(IDfTypedObjectMock.java:86)
+	at mock.com.documentum.fc.client.IDfUserMock.getDefaultValueProvider(IDfUserMock.java:36)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:59)
+	at mock.com.documentum.fc.client.IDfPersistentObjectMock.<init>(IDfPersistentObjectMock.java:22)
+	at mock.com.documentum.fc.client.IDfPersistentObjectMock.<init>(IDfPersistentObjectMock.java:18)
+	at mock.com.documentum.fc.client.IDfUserMock.<init>(IDfUserMock.java:25)
+	at mock.com.documentum.fc.client.IDfSessionMock.getDefautValueProvider(IDfSessionMock.java:66)
+	at mock.com.documentum.fc.client.IDfSessionMock.<init>(IDfSessionMock.java:50)
+	at mock.com.documentum.fc.client.IDfSessionMock.<init>(IDfSessionMock.java:46)
+	at mock.com.documentum.fc.client.IDfSessionMock.main(IDfSessionMock.java:86)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+2 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+3 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.getDefaultValueProvider(IDfTypedObjectMock.java:86)
+	at mock.com.documentum.fc.client.IDfCollectionMock.getDefaultValueProvider(IDfCollectionMock.java:62)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:59)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:55)
+	at mock.com.documentum.fc.client.IDfCollectionMock.<init>(IDfCollectionMock.java:37)
+	at mock.com.documentum.fc.client.IDfQueryMock.getDefaultValueProvider(IDfQueryMock.java:55)
+	at mock.com.documentum.fc.client.IDfQueryMock.<init>(IDfQueryMock.java:42)
+	at mock.com.documentum.fc.client.IDfQueryMock.<init>(IDfQueryMock.java:37)
+	at mock.com.documentum.fc.client.IDfQueryMock.main(IDfQueryMock.java:66)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+6 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+9 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.getDefaultValueProvider(IDfTypedObjectMock.java:86)
+	at mock.com.documentum.fc.client.IDfCollectionMock.getDefaultValueProvider(IDfCollectionMock.java:62)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:59)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:55)
+	at mock.com.documentum.fc.client.IDfCollectionMock.<init>(IDfCollectionMock.java:37)
+	at mock.com.documentum.fc.client.IDfQueryMock.getDefaultValueProvider(IDfQueryMock.java:55)
+	at mock.com.documentum.fc.client.IDfQueryMock.<init>(IDfQueryMock.java:42)
+	at mock.com.documentum.fc.client.IDfQueryMock.<init>(IDfQueryMock.java:37)
+	at mock.com.documentum.fc.client.IDfQueryMock.main(IDfQueryMock.java:66)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+6 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+8 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.getDefaultValueProvider(IDfTypedObjectMock.java:86)
+	at mock.com.documentum.fc.client.IDfCollectionMock.getDefaultValueProvider(IDfCollectionMock.java:62)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:59)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:55)
+	at mock.com.documentum.fc.client.IDfCollectionMock.<init>(IDfCollectionMock.java:37)
+	at mock.com.documentum.fc.client.IDfQueryMock.getDefaultValueProvider(IDfQueryMock.java:55)
+	at mock.com.documentum.fc.client.IDfQueryMock.<init>(IDfQueryMock.java:42)
+	at mock.com.documentum.fc.client.IDfQueryMock.<init>(IDfQueryMock.java:37)
+	at mock.com.documentum.fc.client.IDfQueryMock.main(IDfQueryMock.java:66)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+2 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+3 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.getDefaultValueProvider(IDfTypedObjectMock.java:86)
+	at mock.com.documentum.fc.client.IDfCollectionMock.getDefaultValueProvider(IDfCollectionMock.java:62)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:59)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:55)
+	at mock.com.documentum.fc.client.IDfCollectionMock.<init>(IDfCollectionMock.java:37)
+	at mock.com.documentum.fc.client.IDfQueryMock.getDefaultValueProvider(IDfQueryMock.java:55)
+	at mock.com.documentum.fc.client.IDfQueryMock.<init>(IDfQueryMock.java:42)
+	at mock.com.documentum.fc.client.IDfQueryMock.<init>(IDfQueryMock.java:37)
+	at mock.com.documentum.fc.client.IDfQueryMock.main(IDfQueryMock.java:66)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+3 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+4 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.getDefaultValueProvider(IDfTypedObjectMock.java:86)
+	at mock.com.documentum.fc.client.IDfCollectionMock.getDefaultValueProvider(IDfCollectionMock.java:62)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:59)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:55)
+	at mock.com.documentum.fc.client.IDfCollectionMock.<init>(IDfCollectionMock.java:37)
+	at mock.com.documentum.fc.client.IDfQueryMock.getDefaultValueProvider(IDfQueryMock.java:55)
+	at mock.com.documentum.fc.client.IDfQueryMock.<init>(IDfQueryMock.java:42)
+	at mock.com.documentum.fc.client.IDfQueryMock.<init>(IDfQueryMock.java:37)
+	at mock.com.documentum.fc.client.IDfQueryMock.main(IDfQueryMock.java:66)
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+3 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
+4 [main] ERROR com.documentum.fc.common.impl.preferences.PreferencesManager  - [DFC_PREFERENCE_LOAD_FAILED] Failed to load persistent preferences from null
+java.io.FileNotFoundException: dfc.properties
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.locateMainPersistentStore(PreferencesManager.java:357)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.readPersistentProperties(PreferencesManager.java:311)
+	at com.documentum.fc.common.impl.preferences.PreferencesManager.<init>(PreferencesManager.java:37)
+	at com.documentum.fc.common.DfPreferences.initialize(DfPreferences.java:79)
+	at com.documentum.fc.common.DfPreferences.getInstance(DfPreferences.java:58)
+	at com.documentum.fc.common.DfTime$DfDatePrefObs.<init>(DfTime.java:431)
+	at com.documentum.fc.common.DfTime.staticInit(DfTime.java:509)
+	at com.documentum.fc.common.DfTime.<clinit>(DfTime.java:527)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.getDefaultValueProvider(IDfTypedObjectMock.java:86)
+	at mock.com.documentum.fc.client.IDfCollectionMock.getDefaultValueProvider(IDfCollectionMock.java:62)
+	at mock.com.documentum.fc.client.IDfTypedObjectMock.<init>(IDfTypedObjectMock.java:59)
+	at mock.com.documentum.fc.client.IDfCollectionMock.<init>(IDfCollectionMock.java:41)
+	at mock.com.documentum.fc.client.IDfCollectionMock.<init>(IDfCollectionMock.java:37)
+	at mock.com.documentum.fc.client.IDfQueryMock.getDefaultValueProvider(IDfQueryMock.java:55)
+	at mock.com.documentum.fc.client.IDfQueryMock.<init>(IDfQueryMock.java:42)
+	at mock.com.documentum.fc.client.IDfQueryMock.<init>(IDfQueryMock.java:37)
+	at mock.com.documentum.fc.client.IDfQueryMock.main(IDfQueryMock.java:66)

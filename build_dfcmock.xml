@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="DFC-Mock" default="build.main.jar" basedir=".">
+	<property file="build_dfcmock.properties" />
+	<property file="${basedir}/build.properties" />
+
+	<!--  ==================== jdk  ============================================ -->
+	<property name="javac.executable" value="${jdk.home}/bin/javac" />
+	<property name="main.src" value="${basedir}/src/main/java" />
+	<property name="main.lib" value="${basedir}/src/main/lib" />
+	<property name="main.config" value="${basedir}/src/main/config" />
+	<property name="test.src" value="${basedir}/src/test/java" />
+	<property name="test.lib" value="${basedir}/src/test/lib" />
+	<property name="test.config" value="${basedir}/src/test/config" />
+
+	<property name="debuglevel" value="source,lines,vars" />
+	<property name="target" value="1.5" />
+	<property name="source" value="1.5" />
+
+	<!-- LIB classpath -->
+	<path id="main.lib.classpath">
+		<fileset dir="${main.lib}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+	<path id="test.lib.classpath">
+		<fileset dir="${test.lib}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<target name="clean">
+		<echo message="Cleaning dfc-mock build path ..." />
+		<delete dir="${basedir}/bin" />
+	</target>
+
+	<target name="compile" depends="clean">
+		<echo message="Compiling dfc-mock sources ..." />
+		<delete dir="${basedir}/bin" />
+		<mkdir dir="${basedir}/bin" />
+		<javac destdir="${basedir}/bin" debug="true" debuglevel="${debuglevel}" executable="${javac.executable}" source="${source}" target="${target}" encoding="UTF8">
+			<src path="${main.src}"/>
+			<src path="${test.src}"/>
+			<classpath refid="main.lib.classpath" />
+			<classpath refid="test.lib.classpath" />
+		</javac>
+	</target>
+	
+	<target name="build.main.jar" description="Preparing Main Jar Archive" depends="compile">
+		<delete file="${basedir}/dist/dfc-mock.jar" />
+		<jar destfile="${basedir}/dist/dfc-mock.jar">
+			<fileset dir="${basedir}/bin">
+			    <include name="**/*"/>
+			    <exclude name="**/*Test.class"/>
+			</fileset>
+		</jar>
+	</target>
+	<target name="build.test.jar" description="Preparing Test Jar Archive" depends="compile">
+		<delete file="${basedir}/dist/dfc-mock-tests.jar" />
+		<jar destfile="${basedir}/dist/dfc-mock-tests.jar">
+			<fileset dir="${basedir}/bin">
+			    <include name="**/*Test.class" />
+			</fileset>
+			<fileset dir="${main.config}">
+			    <include name="**/*properties" />
+			</fileset>
+		</jar>
+	</target>
+	<target name="run.tests" depends="build.test.jar">
+		<mkdir dir="${basedir}/dist/testsreport" />
+		<property name="tests" value="*Test" />
+		<junit printsummary="yes" haltonerror="yes" haltonfailure="yes">
+			<classpath refid="test.lib.classpath" />
+			<classpath refid="main.lib.classpath" />
+			<classpath>
+				<fileset dir="${basedir}/dist" includes="**/*.jar" />
+			</classpath>
+			<formatter type="plain" usefile="false" />
+			<formatter type="xml" />
+			<batchtest todir="${basedir}/dist/testsreport">
+				<fileset dir="${test.src}">
+					<include name="**/${tests}.java" />
+				</fileset>
+			</batchtest>
+		</junit>
+	</target>
+
+</project>
